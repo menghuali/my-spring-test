@@ -1,0 +1,7 @@
+<configuration>
+	<appender name="TESTAPPENDER" class="com.westjet.middleware.roomservices.logging.TestAppender"/>
+
+	<root level="debug">
+		<appender-ref ref="TESTAPPENDER" />
+	</root>
+</configuration>
